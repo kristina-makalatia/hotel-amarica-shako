@@ -105,3 +105,40 @@
   text-decoration: none;
   font-size: 24px;
 }
+
+/*Winter activities*/
+.winter-title{
+    text-align: center;
+	font-size:50px;
+    color: #000000;
+    margin-top:80px;
+}
+.winter-div-class{
+	display:flex;
+	margin-top:30px;	
+}
+.winter-potos1{
+	width: 100%;
+}
+.bg1{
+  height: 598px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:301px;
+  position: relative;
+}
+.text{
+	position: absolute;
+	bottom:10px;
+	left:10px;
+}
+.text-on-bg{
+	font-size: 16px;
+	color: #fff;
+}
+.title-on-bg{
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+}
