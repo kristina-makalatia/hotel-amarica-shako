@@ -73,6 +73,12 @@
     color: #000000;
     margin-top:80px;
 }
+.section-hotel-title2{
+	text-align: center;
+	font-size:50px;
+    color: #000000;
+    margin-top:5px;
+}
 .title-after-image{
    font-size:16px;
    color: #232323;
@@ -93,29 +99,31 @@
 .hotels{
 	margin-top:30px;
 }
-.read-more{
+.read1{
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 40px;
 }
-.more{
+.button1:hover{
+	background-color:#0000ff;
+	color:#fff;
+}
+.button1 {
   border: 1px solid #4e26fd;
   color: #4e26fd;
-  padding: 5px 50px;
+  padding: 10px 32px;
   text-align: center;
   text-decoration: none;
-  font-size: 24px;
+  display: inline-block;
+  font-size: 22px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background:#fff;
 }
-
 /*Winter activities*/
-.winter-title{
-    text-align: center;
-	font-size:50px;
-    color: #000000;
-    margin-top:80px;
-}
 .winter-div-class{
 	display:flex;
-	margin-top:30px;	
+	margin-top:30px;
 }
 .winter-potos1{
 	width: 100%;
@@ -141,4 +149,70 @@
 	font-size: 40px;
 	color: #fff;
 	text-transform: uppercase;
+}
+
+/*Deluxe rooms*/
+.deluxe-box{
+	margin-right: 30px;
+}
+.image-margin{
+	margin-top: 30px;
+}
+
+/*Winter-weather*/
+.winter-weather{
+	margin-top: 30px;
+}
+.bg2{
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 554px;
+}
+.text-on-winter{
+	justify-content: flex-end;
+}
+.winter-bg{
+	font-size:130px; 
+	color:#fff;
+}
+.text-winter{
+	font-size:16px;
+	color:#fff;
+}
+.text-on-winter{
+	float: right;
+	margin-right:100px;
+	padding-top:80px;
+}
+.clear{
+	clear:right;
+}
+.button {
+  background-color:#0000ff;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.read{
+	margin-top: 30px;
+}
+
+/*News*/
+.news-title{
+   color:#010101;
+   font-size: 16px;
+   font-weight: bold;
+   margin:10px 0;
+}
+.news-text{
+   color:#454545;
+   font-size: 16px;
 }
