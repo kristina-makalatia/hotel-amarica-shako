@@ -5,35 +5,36 @@
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<header class="header">
-	 <div class="container flex">
+	<header class="header" id="home">
+	 <div class="container flex1">
 		<a href="#">
 			<img class="logo" src="img/logo1.png" alt="logo">
 	    </a>
 	    <nav class="navigation">
 		  <ul class="navigation-ul">
 			<li class="navigation-li">
-				<a class="navigation-a" href="#">HOME</a>
+				<a class="navigation-a" href="#home">HOME</a>
 			</li>
 
 			<li class="navigation-li">
-				<a class="navigation-a" href="#"> ABOUT US </a>
+				<a class="navigation-a" href="#about"> ABOUT US </a>
 			</li>
 
 			<li class="navigation-li">
 				<a class="navigation-a" href="#">SHOP</a>
 			</li>
 			<li class="navigation-li">
-				<a class="navigation-a" href="#">PORTFOLIO</a>
+				<a class="navigation-a" href="#portfolio">PORTFOLIO</a>
 			</li>
 			<li class="navigation-li">
-				<a class="navigation-a" href="#">BLOG</a>
+				<a class="navigation-a" href="#blog">BLOG</a>
 			</li>
 			<li class="navigation-li">
-				<a class="navigation-a" href="#">CONTACT</a>
+				<a class="navigation-a" href="#contact">CONTACT</a>
 			</li>      			
 		  </ul>
 	    </nav>
@@ -50,15 +51,15 @@
 
  <section class="form-after-banner">
  	<div class="container form-bg">
- 		<form class="form flex" action="#">
+ 		<form class="form flex-form" action="#">
 		  <div class="form-group">
-			<input class="input" type="text" placeholder="Arrival">
+			<input class="input" type="number" placeholder="Arrival">
 		  </div>
 		  <div class="form-group">
 			<input class="input" type="text" placeholder="Departure">
 		  </div>
 		  <div class="form-group">
-			<input class="input" type="text" placeholder="Choose a Room">
+			<input class="input" type="number" placeholder="Choose a Room">
 		  </div>	
 		  <div class="form-group">
 			<input class="input" type="text" placeholder="State">
@@ -67,7 +68,8 @@
 		</form>
     </div>
  </section>
- <section class="about-us">
+ 
+ <section class="about-us" id="about">
  	<div class="container">
  		<h1 class="section-hotel-title"> Award Wining Hotels </h1>
  		<div class="hotels flex">
@@ -111,7 +113,7 @@
  	</div>
  </section>
 
-  <section class="winter-activities">
+  <section class="winter-activities" id="portfolio">
    	  <h1 class="section-hotel-title">Winter activities</h1>
 
  	  	<div class="winter-div-class">
@@ -198,7 +200,7 @@
 	</div>
  </section>
 
- <section class="news">
+ <section class="news" id="blog">
  	<div class="container">
    		<h1 class="section-hotel-title">News From Us</h1>
 
@@ -226,8 +228,77 @@
  	</div>
  </section>
 
- <footer>	
+ <footer class="footer-class" id="contact">
+  <div class="container">	
 
+  	<div class="logo">
+ 			<img class="logo55" src="img/logo1.png" alt="logo">
+ 		</div>
+
+ 	<div class="footer-flex">
+ 		<div class="navigation-footer">
+ 			<ul>
+ 				<li class="li-flex">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <p class="footer-p">  123, Main Street, NY 456789</p>
+               </li>
+               <li class="li-flex">
+                  <i class="fas fa-mobile-alt"></i>
+                  <p class="footer-p">  +123 556 77898</p>
+               </li>
+               <li class="li-flex">
+                  <i class="fas fa-envelope"></i>
+                  <p class="footer-p"> free@psdfreebies.com</p>
+               </li> 				
+ 			</ul>
+ 		</div>
+ 		
+ 		<div class="navigation-footer">
+ 			<ul>
+ 				<li class="footer-li"> Home </li>
+ 				<li class="footer-li"> About </li>
+ 				<li class="footer-li"> Rooms</li>
+ 			</ul>
+ 		</div>
+
+ 		<div class="navigation-footer">
+ 			<ul>
+ 				<li class="footer-li"> Portfolio </li>
+ 				<li class="footer-li"> Blog </li>
+ 				<li class="footer-li"> Partnership</li>
+ 			</ul>
+ 		</div>
+
+ 		<div class="navigation-footer">
+ 			<p class="footer-li"> Contact </p>
+ 		</div>
+
+ 		<div class="navigation-footer">
+ 			<p class="social-p"> We are in social networks </p>
+
+ 			<ul class="footer-ul">
+ 				<li class="social-icon"> 
+ 					<i class="fab fa-facebook-f"></i>
+ 				 </li>
+ 				 <li class="social-icon"> 
+ 					<i class="fab fa-vk"></i>
+ 				 </li>
+ 				 <li class="social-icon"> 
+ 					<i class="fab fa-instagram"></i>
+ 				 </li>
+ 				 <li class="social-icon"> 
+ 					<i class="fab fa-youtube"></i>
+ 				 </li>				
+ 			</ul>
+ 		</div>
+	</div>
+
+	<div class="text-in-footer">
+		<p class="copyright"> Copyright 2019. All Right Reserved </p>
+	</div>
+ </div>
  </footer>
+
+ <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
 </body>
 </html>
